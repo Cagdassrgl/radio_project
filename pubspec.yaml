@@ -13,7 +13,7 @@ dependencies:
   get: ^4.6.5
   google_fonts: ^4.0.4
   flutter_screenutil: ^5.7.0
-
+  just_audio: ^0.9.32
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -26,10 +26,12 @@ flutter:
   uses-material-design: true
 
   assets:
+   - assets/
    - assets/gif/splash_gif.gif
    - assets/gif/radio_gif.gif
-   - assets/icon/
-
+   - assets/radios/radio.json
+   - assets/icon/hiphop.jpg
+   - assets/icon/rock.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
