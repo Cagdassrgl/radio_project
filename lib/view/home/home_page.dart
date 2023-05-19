@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:radio_project/core/constant/color/app_color.dart';
 import 'package:radio_project/view/home/home_controller.dart';
 import 'package:radio_project/view/radio/view/radio_page.dart';
 
@@ -13,17 +14,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.lightBlue,
       appBar: PreferredSize(
         preferredSize: Size(Get.width, 40.h),
         child: Container(
-          color: Colors.blue,
+          color: AppColors.regularBlue,
           child: Center(
             child: Text(
               "Radio Project",
               style: GoogleFonts.roboto(
                 fontSize: 48.sp,
                 fontWeight: FontWeight.w500,
-                color: Colors.white,
+                color: AppColors.white,
               ),
             ),
           ),
@@ -54,9 +56,9 @@ class HomePage extends StatelessWidget {
                     color: Colors.white,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey.withOpacity(0.4),
-                        spreadRadius: 1.0,
-                        blurRadius: 20.0,
+                        color: AppColors.darkBlue,
+                        spreadRadius: 1.0.r,
+                        blurRadius: 20.0.r,
                       ),
                     ],
                   ),
@@ -85,7 +87,7 @@ class HomePage extends StatelessWidget {
                 color: Colors.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.4),
+                    color: AppColors.darkBlue,
                     spreadRadius: 1.0,
                     blurRadius: 20.0,
                   ),

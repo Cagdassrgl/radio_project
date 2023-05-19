@@ -32,6 +32,7 @@ flutter:
    - assets/radios/radio.json
    - assets/icon/hiphop.jpg
    - assets/icon/rock.png
+   - assets/icon/rock.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
