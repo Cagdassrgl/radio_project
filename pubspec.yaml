@@ -26,14 +26,11 @@ flutter:
   uses-material-design: true
 
   assets:
-   - assets/
-   - assets/gif/splash_gif.gif
-   - assets/gif/radio_gif.gif
-   - assets/gif/gif.gif
-   - assets/radios/radio.json
-   - assets/icon/hiphop.jpg
-   - assets/icon/rock.png
-   - assets/icon/rock.jpeg
+    - assets/
+    - assets/gif/gif.gif
+    - assets/radios/radio.json
+    - assets/icon/hiphop.jpg
+    - assets/icon/rock.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
