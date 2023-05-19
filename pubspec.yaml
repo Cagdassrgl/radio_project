@@ -29,6 +29,7 @@ flutter:
    - assets/
    - assets/gif/splash_gif.gif
    - assets/gif/radio_gif.gif
+   - assets/gif/gif.gif
    - assets/radios/radio.json
    - assets/icon/hiphop.jpg
    - assets/icon/rock.png

@@ -14,14 +14,9 @@ class SplashPage extends StatelessWidget {
       const Duration(seconds: 3),
       () => Navigator.pushReplacementNamed(context, '/home'),
     );
-    return Scaffold(
-      backgroundColor: AppColors.lightBlue,
-      body: Center(
-        child: Image.asset(
-          AppAssets.SPLASH_GIF,
-          fit: BoxFit.fill,
-        ),
-      ),
+    return Image.asset(
+      AppAssets.SPLASH_GIF,
+      fit: BoxFit.fill,
     );
   }
 }
